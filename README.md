@@ -1,4 +1,4 @@
-# Alfreds-Box
+# Alfreds Box
 
 *Made for Ludum Dare 46*
 
