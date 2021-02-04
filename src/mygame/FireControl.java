@@ -35,13 +35,13 @@ public class FireControl extends AbstractControl {
     }
 
 
-public void initialize(AppStateManager stateManager, Application app) {
+   public void initialize(AppStateManager stateManager, Application app) {
 
 
 
-this.app = (SimpleApplication) app;
+      this.app = (SimpleApplication) app;
 
-}
+   }
     @Override
     protected void controlRender(RenderManager rm, ViewPort vp) {}
 
