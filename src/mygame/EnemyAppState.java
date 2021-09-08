@@ -79,7 +79,6 @@ public class EnemyAppState extends AbstractAppState {
 
             }
             timer = timer + tpf;
-            //System.out.println(timer);
             if(timer >= constant && enemies.getQuantity() < ememylimit) {
                 constant = constant - 0.01f;
                 Random random = new Random();
@@ -171,7 +170,6 @@ public class EnemyAppState extends AbstractAppState {
                 } else if (a == 16) {
                     monster_phys.setPhysicsLocation(new Vector3f(0, 2, 20));
                 }
-                System.out.println("GEDGSDFG");
                 monster_phys.setGravity(new Vector3f(0, -30f, 0));
                 monster.addControl(monster_phys);
                 monster.addControl(new FollowControl(new Vector3f(0,0,0)));
