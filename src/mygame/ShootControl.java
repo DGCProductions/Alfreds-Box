@@ -13,7 +13,7 @@ import com.jme3.math.Vector3f;
 import com.jme3.renderer.RenderManager;
 import com.jme3.renderer.ViewPort;
 import com.jme3.scene.control.AbstractControl;
-
+// used to move the bullet. thats it. go home.
 public class ShootControl extends AbstractControl {
     Vector3f loc;
     float delay = 0;
@@ -25,7 +25,7 @@ public class ShootControl extends AbstractControl {
     @Override
     protected void controlUpdate(float tpf) {
     	
-    	
+    
        spatial.move(loc.mult(tpf*30));
        
     	
@@ -44,3 +44,4 @@ this.app = (SimpleApplication) app;
 
     
 }
+// k
